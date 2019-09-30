@@ -1,6 +1,6 @@
 ## Forge
 
-Version: 0.0.2
+Version: 0.0.3
 
 Forge is a file redirection layer for Fire Emblem Three Houses. When looking for any file, the game will look in Forge's files first. If it is missing, then the original game file will be used.
 
@@ -9,13 +9,13 @@ Download Forge from [the releases page](https://github.com/three-houses-research
 Place the contents of `sdcard` into the root of your SD card.
 
 ## How to Use
-Place your files in `sdcard:/Starfall/forge/`. The names of these files must be four characters long, being the name of the entry ID in lowercase hex.
+Place your files in `sdcard:/Starfall/forge/`. The names of these files must be the name of the entry ID in decimal.
 
 Examples:
 
-* EntryID `0`: `sdcard:/Starfall/forge/0000`
-* EntryID `11`: `sdcard:/Starfall/forge/000b`
-* EntryID `481`: `sdcard:/Starfall/forge/01e1`
+* EntryID `0`: `sdcard:/Starfall/forge/0`
+* EntryID `11`: `sdcard:/Starfall/forge/11`
+* EntryID `3121`: `sdcard:/Starfall/forge/3121`
 
 ## Troubleshooting
 Make sure that the patch has been applied. You can do by confirming the Starfall version number on the title screen:
@@ -25,6 +25,7 @@ Make sure that the patch has been applied. You can do by confirming the Starfall
 Furthermore, make sure that your patch files have the correct naming scheme.
 
 ## Version History
+* **0.0.3** Use decimal entry IDs for filename.
 * **0.0.2** Include npdm file.
 * **0.0.1** Public release.
 
