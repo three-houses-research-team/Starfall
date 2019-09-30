@@ -1,6 +1,6 @@
 ## Forge
 
-Version: 0.0.1
+Version: 0.0.2
 
 Forge is a file redirection layer for Fire Emblem Three Houses. When looking for any file, the game will look in Forge's files first. If it is missing, then the original game file will be used.
 
@@ -23,6 +23,10 @@ Make sure that the patch has been applied. You can do by confirming the Starfall
 ![Title screen](titlescreen.jpg)
 
 Furthermore, make sure that your patch files have the correct naming scheme.
+
+## Version History
+* **0.0.2** Include npdm file.
+* **0.0.1** Public release.
 
 ## Disclaimer
 
