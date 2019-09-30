@@ -23,6 +23,7 @@ Make sure that the patch has been applied. You can do by confirming the Starfall
 ![Title screen](titlescreen.jpg)
 
 Furthermore, make sure that your patch files have the correct naming scheme.
+Also, please know that you can't currently combine different patches (such as the no outlines patch) while using this.
 
 ## Version History
 * **0.0.3** Use decimal entry IDs for filename.
